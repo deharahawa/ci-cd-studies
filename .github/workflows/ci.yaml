@@ -3,6 +3,7 @@ on:
   pull_request:
     branches:
       - develop
+      - main
 
 jobs: 
   check-application:
@@ -37,3 +38,4 @@ jobs:
         with:
           push: true
           tags: deh410/ci-cd-studies:latest
+          
